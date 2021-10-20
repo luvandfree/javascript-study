@@ -68,7 +68,7 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 <br>
 
-생활코딩 : https://opentutorials.org/course/3085
+생활코딩 : <https://opentutorials.org/course/3085>
 
 <br>
 
