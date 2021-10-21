@@ -79,7 +79,7 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 ### 1주차
 
-- [Visual Studio 및 Extention 설치](https://youtu.be/bS9yTI2fC0w)
+- [Visual Studio 및 Extensions 설치](https://youtu.be/bS9yTI2fC0w)
 - **(이것만 필수)** 드림코딩 - [자바스크립트의 역사와 현재 그리고 미래 (JavaScript, ECMAScript, JQuery, Babel, Node.js)](https://youtu.be/wcsVjmHrUQg)
 - [생활코딩 - 수업소개](https://opentutorials.org/course/3085)
 - 생활코딩 - 수업의 목적
