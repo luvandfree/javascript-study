@@ -6,14 +6,14 @@
 
 ### Visual Studio Code
 
-생활코딩은 Atom Editor로 진행합니다. 하지만 Visual Studio Code(**vscode**로 부를게요)가 좀 더 가볍고, 확장성이 좋고, 무료 에디터 중에선 제일 많이 사용하고 있어서 이것으로 진행하는 것이 좋겠다는 판단입니다. 그리고 과정이 더 진행되거나, 나중에 다른 언어에 관심이 있으실 경우라도 vscode가 좀 더 적절한 선택일것 같습니다.
+생활코딩은 Atom Editor로 진행합니다. 하지만 Visual Studio Code(**vscode**)가 좀 더 가볍고, 확장성이 좋고, 무료 에디터 중에선 제일 많이 사용하고 있어서 이것으로 진행하는 것이 좋겠다는 판단입니다. 그리고 과정이 더 진행되거나, 나중에 다른 언어에 관심이 있으실 경우라도 vscode가 좀 더 적절한 선택일것 같습니다.
 
 설치방법 : [설치참고영상](https://youtu.be/bS9yTI2fC0w)
 
-### Visual Studio Code Extention
+### Visual Studio Code Extension
 
-Visual Studio Code를 사용하면서 JavaScript 코드 작성에 도움이 되는 아래의 Extention도 설치바랍니다.  
-(위 설치영상에 있는 모든 Extention을 설치해도 무방해요!)
+vscode를 사용하면서 JavaScript 코드 작성에 도움이 되는 아래의 Extension도 설치바랍니다.  
+(위 설치영상에 있는 모든 Extension을 설치해도 무방해요!)
 
 - Prettier
 - bracket pair colorizer
@@ -39,7 +39,8 @@ Visual Studio Code를 사용하면서 JavaScript 코드 작성에 도움이 되�
 
 ### 내용 정리 (Optional)
 
-각자 원하는 도구(노션, 원노트, 메모장 등)에 간략한 내용 작성합니다.  
+각자 원하는 도구(노션, 원노트, 메모장 등)에 간략하게 정리 내용 작성합니다.  
+(본인만의 공부방법에 따라 정리를 하셔도 되고, 안하셔도 무방합니다.)  
 _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a798754b42f59d553605a1f60804)_
 
 ### 코드 작성 (Mandatory)
@@ -53,7 +54,7 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 > 영상에선 코드 글자 변경할 때 한번에 바꾸던데, 그런건 어떻게 하나요?  
 > 파일을 저장했는데 크롬에서 확인이 안되요.
 
-질문 방법은 사내메신저, 메일, github이슈 등록, slack 등을 고려중인데, 해보고 싶으신 방법 있으시면 추천 바랍니다.
+질문 방법은 slack을 고려중인데, 해보고 싶으신 방법 있으시면 추천 바랍니다.
 
 <br>
 
@@ -74,9 +75,9 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 ## 진도 안내
 
-영상은 순서대로 들으시면 됩니다.
+영상은 순서대로 보시면 됩니다.
 
-### 1주차 (순서대로 진행)
+### 1주차
 
 - [Visual Studio 및 Extention 설치](https://youtu.be/bS9yTI2fC0w)
 - **(이것만 필수)** 드림코딩 - [자바스크립트의 역사와 현재 그리고 미래 (JavaScript, ECMAScript, JQuery, Babel, Node.js)](https://youtu.be/wcsVjmHrUQg)
