@@ -49,12 +49,18 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 ### Q&A 관련
 
-학습진행시 궁금한 것은 사소한 것이라도 상관없으니 질문 해주세요.
+학습진행시 궁금한 것은 사소한 것이라도 상관없으니 질문 해주세요.  
+물론, 교육과정 외에 다른 문의를 주셔도 괜찮습니다.
 
 > 영상에선 코드 글자 변경할 때 한번에 바꾸던데, 그런건 어떻게 하나요?  
-> 파일을 저장했는데 크롬에서 확인이 안되요.
+> 소스 파일을 작성했는데 크롬에서 확인이 안되요.  
+> python은 공부하기 어렵나요?  
+> IT에서 방화벽 신청이 필요하다는데, 왜 하는건가요?
 
-질문 방법은 slack을 고려중인데, 해보고 싶으신 방법 있으시면 추천 바랍니다.
+질문 방법은 아래 방법을 고려중인데, 해보고 싶으신 방법 있으시면 추천 바랍니다.
+
+- slack
+- google docs
 
 <br>
 
@@ -77,7 +83,7 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 영상은 순서대로 보시면 됩니다.
 
-### 1주차
+### 1주차 [(학습 내용 확인하기)](https://luvandfree.github.io/javascript-study/docs/course/01.html)
 
 - [Visual Studio 및 Extensions 설치](https://youtu.be/bS9yTI2fC0w)
 - **(이것만 필수)** 드림코딩 - [자바스크립트의 역사와 현재 그리고 미래 (JavaScript, ECMAScript, JQuery, Babel, Node.js)](https://youtu.be/wcsVjmHrUQg)
