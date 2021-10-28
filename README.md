@@ -31,7 +31,7 @@ vscode를 사용하면서 JavaScript 코드 작성에 도움이 되는 아래의
 
 ### 멘토링
 
-**목요일(예상)** 에 학습한 내용을 서로 리뷰하고 질의응답을 진행합니다.
+**목요일 오전 10시 30분**
 
 <br>
 
@@ -45,7 +45,9 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 ### 코드 작성 (Mandatory)
 
-작성한 코드는 멘토링 시간 전까지 멘토에게 전달해주세요. _(전달방법 정의해야 함 : email? google drive? js파일?)_
+작성한 코드는 멘토링 시간 전까지 멘토에게 전달해주세요.  
+(.js는 파일 첨부가 안되니, 본문에 붙여넣기 해주시면 됩니다.)  
+email : luvandfree@gmail.com
 
 ### Q&A 관련
 
@@ -59,8 +61,7 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 질문 방법은 아래 방법을 고려중인데, 해보고 싶으신 방법 있으시면 추천 바랍니다.
 
-- slack
-- google docs
+- **slack**
 
 <br>
 
