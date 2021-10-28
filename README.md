@@ -45,7 +45,7 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 
 ### 코드 작성 (Mandatory)
 
-작성한 코드는 멘토링 시간 전까지 멘토에게 전달해주세요. _(전달방법 정의해야 함)_
+작성한 코드는 멘토링 시간 전까지 멘토에게 전달해주세요. _(전달방법 정의해야 함 : email? google drive? js파일?)_
 
 ### Q&A 관련
 
