@@ -2,6 +2,41 @@
 
 <br>
 
+## 진도 안내
+
+### 0주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/00.html)
+
+멘토링 진행 방향 설정 및 HTML/CSS 리뷰
+
+### 1주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/01.html)
+
+- [Visual Studio 및 Extensions 설치](https://youtu.be/bS9yTI2fC0w)
+- **(이것만 필수)** [드림코딩 - 자바스크립트의 역사와 현재 그리고 미래 (JavaScript, ECMAScript, JQuery, Babel, Node.js)](https://youtu.be/wcsVjmHrUQg)
+- [생활코딩 - 수업소개](https://opentutorials.org/course/3085)
+- 생활코딩 - 수업의 목적
+- 생활코딩 - HTML과 JavaScript의 만남 1 (script 태그)
+- 생활코딩 - HTML과 JavaScript의 만남 2 (이벤트)
+- 생활코딩 - HTML과 JavaScript의 만남 3 (콘솔)
+- _(Optional)_ [드림코딩 - 콘솔에 출력, script async 와 defer의 차이점 및 앞으로 자바스크립트 공부 방향](https://youtu.be/tJieVCgGzhs)
+
+### 2주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/02.html)
+
+- [생활코딩 - 데이터타입 - 문자열과 숫자](https://opentutorials.org/course/3085/18870)
+- 생활코딩 - 변수와 대입 연산자
+- 생활코딩 - 웹브라우저 제어
+- (Optional) [드림코딩 - 데이터타입, data types, let vs var, hoisting](https://youtu.be/OCCpGh4ujb8)
+
+### 3주차
+
+- [생활코딩 - 웹브라우저 제어](https://opentutorials.org/course/3085/18870)
+- 생활코딩 - CSS 기초
+- 생활코딩 - 제어할 태그 선택하기
+- (Optional) [드림코딩 - CSS 셀렉터, 기초 이론 정리. 포트폴리오 만드는 날까지!](https://youtu.be/gGebK7lWnCk)
+- 생활코딩 - 프로그램, 프로그래밍, 프로그래머
+- 생활코딩 - 조건문 예고
+
+<br>
+
 ## IDE (개발툴)
 
 ### Visual Studio Code
@@ -77,20 +112,3 @@ email : luvandfree@gmail.com
 <br>
 
 생활코딩 : <https://opentutorials.org/course/3085>
-
-<br>
-
-## 진도 안내
-
-영상은 순서대로 보시면 됩니다.
-
-### 1주차 [(학습 내용 확인하기)](https://luvandfree.github.io/javascript-study/docs/course/01.html)
-
-- [Visual Studio 및 Extensions 설치](https://youtu.be/bS9yTI2fC0w)
-- **(이것만 필수)** 드림코딩 - [자바스크립트의 역사와 현재 그리고 미래 (JavaScript, ECMAScript, JQuery, Babel, Node.js)](https://youtu.be/wcsVjmHrUQg)
-- [생활코딩 - 수업소개](https://opentutorials.org/course/3085)
-- 생활코딩 - 수업의 목적
-- 생활코딩 - HTML과 JavaScript의 만남 1 (script 태그)
-- 생활코딩 - HTML과 JavaScript의 만남 2 (이벤트)
-- 생활코딩 - HTML과 JavaScript의 만남 3 (콘솔)
-- _(Optional)_ 드림코딩 - [콘솔에 출력, script async 와 defer의 차이점 및 앞으로 자바스크립트 공부 방향](https://youtu.be/tJieVCgGzhs)
