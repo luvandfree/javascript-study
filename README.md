@@ -22,18 +22,18 @@
 ### 2주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/02.html)
 
 - [생활코딩 - 데이터타입 - 문자열과 숫자](https://opentutorials.org/course/3085/18870)
-- 생활코딩 - 변수와 대입 연산자
-- 생활코딩 - 웹브라우저 제어
+- [생활코딩 - 변수와 대입 연산자](https://opentutorials.org/course/3085/18871)
 - (Optional) [드림코딩 - 데이터타입, data types, let vs var, hoisting](https://youtu.be/OCCpGh4ujb8)
+- [생활코딩 - 웹브라우저 제어](https://opentutorials.org/course/3085/18872)
 
 ### 3주차
 
-- [생활코딩 - 웹브라우저 제어](https://opentutorials.org/course/3085/18870)
-- 생활코딩 - CSS 기초
-- 생활코딩 - 제어할 태그 선택하기
+- [생활코딩 - CSS 기초](https://opentutorials.org/course/3085/18789)
 - (Optional) [드림코딩 - CSS 셀렉터, 기초 이론 정리. 포트폴리오 만드는 날까지!](https://youtu.be/gGebK7lWnCk)
-- 생활코딩 - 프로그램, 프로그래밍, 프로그래머
-- 생활코딩 - 조건문 예고
+- [생활코딩 - 제어할 태그 선택하기](https://opentutorials.org/course/3085/18792)
+- (Optional) [생활코딩 - jQuery](https://opentutorials.org/course/1375/6630)
+- [생활코딩 - 프로그램, 프로그래밍, 프로그래머](https://opentutorials.org/course/3085/18876)
+- [생활코딩 - 조건문 예고](https://opentutorials.org/course/3085/18879)
 
 <br>
 
@@ -81,8 +81,11 @@ _Like this -> [Notion사용](https://bony-loaf-5cb.notion.site/JavaScript-15a1a7
 ### 코드 작성 (Mandatory)
 
 작성한 코드는 멘토링 시간 전까지 멘토에게 전달해주세요.  
-(.js는 파일 첨부가 안되니, 본문에 붙여넣기 해주시면 됩니다.)  
-email : luvandfree@gmail.com
+(.js는 파일 첨부가 안되니, 본문에 붙여넣기 해주시면 됩니다.)
+
+email  
+김성원 : luvandfree@gmail.com  
+윤민재 : mjyoon@bccard.com
 
 ### Q&A 관련
 
