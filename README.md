@@ -26,7 +26,7 @@
 - (Optional) [드림코딩 - 데이터타입, data types, let vs var, hoisting](https://youtu.be/OCCpGh4ujb8)
 - [생활코딩 - 웹브라우저 제어](https://opentutorials.org/course/3085/18872)
 
-### 3주차
+### 3주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/03.html)
 
 - [생활코딩 - CSS 기초](https://opentutorials.org/course/3085/18789)
 - (Optional) [드림코딩 - CSS 셀렉터, 기초 이론 정리. 포트폴리오 만드는 날까지!](https://youtu.be/gGebK7lWnCk)
@@ -42,6 +42,7 @@
 - [생활코딩 - 조건문의 활용](https://opentutorials.org/course/3085/18878)
 - [생활코딩 - 리팩토링(refactoring)](https://opentutorials.org/course/3085/18801)
 - [생활코딩 - 반복문 예고](https://opentutorials.org/course/3085/18881)
+- [Quiz](https://luvandfree.github.io/javascript-study/quiz/quiz_03.html)
 
 ### 5주차
 
