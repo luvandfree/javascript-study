@@ -35,6 +35,25 @@
 - [생활코딩 - 프로그램, 프로그래밍, 프로그래머](https://opentutorials.org/course/3085/18876)
 - [생활코딩 - 조건문 예고](https://opentutorials.org/course/3085/18879)
 
+### 4주차
+
+- [생활코딩 - 비교 연산자와 Boolean 데이터 타입](https://opentutorials.org/course/3085/18798)
+- [생활코딩 - 조건문](https://opentutorials.org/course/3085/18800)
+- [생활코딩 - 조건문의 활용](https://opentutorials.org/course/3085/18878)
+- [생활코딩 - 리팩토링(refactoring)](https://opentutorials.org/course/3085/18801)
+- [생활코딩 - 반복문 예고](https://opentutorials.org/course/3085/18881)
+
+### 5주차
+
+- [생활코딩 - 반복문](https://opentutorials.org/course/3085/18827)
+- (Optional) [드림코딩 - 코딩의 기본 operator, if, for loop 코드리뷰 팁](https://youtu.be/YBjufjBaxHo)
+- [생활코딩 - 배열](https://opentutorials.org/course/3085/18825) (생활코딩에서 순서를 반복문 -> 배열 순으로 변경했어요)
+- [생활코딩 - 배열과 반복문](https://opentutorials.org/course/3085/18828)
+- [생활코딩 - 배열과 반복문의 활용](https://opentutorials.org/course/3085/18850)
+- (Optional) [드림코딩 - 배열 제대로 알고 쓰자. 자바스크립트 배열 개념과 APIs 총정리](https://youtu.be/yOdAVDuHUKQ)
+- (Optional\*2) [드림코딩 - 유용한 10가지 배열 함수들. Array APIs 총정리](https://youtu.be/3CUjtKJ7PJg)
+- [생활코딩 - 함수예고](https://opentutorials.org/course/3085/18882)
+
 <br>
 
 ## IDE (개발툴)
