@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      const day = () => {
+        document.querySelector('body').style.backgroundColor = 'lightyellow';
+        document.querySelector('body').style.color = 'black';
+      };
+    </script>
+  </head>
+  <body>
+    <!-- 
+개발자도구 : elements 태그 
+onclick 속성값은 무조건 js
+-->
+    <input type="button" value="day" onclick="day()" />
+    <input
+      type="button"
+      value="night"
+      onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+  "
+    />
+    <input
+      type="button"
+      value="font blue"
+      onclick="
+    document.querySelector('div').style.color='blue';
+  "
+    />
+    <input
+      type="button"
+      value="font red"
+      onclick="
+    document.querySelector('div').style.color='red';
+  "
+    />
+
+    <!-- <?> 속성값이 적용되는 우선순위가 궁금합니다.-->
+
+    <div>javascript</div>
+
+    <!--
+  html - js 연결방법 1. html 내 script 태그 사용
+-->
+    <h1>1+1+1</h1>
+    <h1>
+      <script>
+        document.write(1 + 1 + 1);
+      </script>
+    </h1>
+
+    <!--html - js 연결방법 2. event 사용 / onclick onchange ... -->
+    <input type="button" value="하이" onclick="alert('하이')" />
+    <input type="text" value="onchange" onchange="alert('onchange')" />
+    <input type="text" value="oninput" oninput="alert('input')" />
+
+    <!--html - js 연결방법 3. console /  개발자 도구 console 사용-->
+
+    <div>
+      <input type="checkbox" onclick="alert('123456'.length)" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="w3.css" />
+  </head>
+
+  <body>
+    <h2>웹브라우저 제어</h2>
+    <input type="button" value="night" 
+           onclick="document.querySelector('body').style.backgroundColor='black';
+                    document.querySelector('body').style.color='white';
+                    document.querySelector('div.box1').style.width='50px';
+                    ">
+
+    <input type="button"
+           value="day"
+           onclick="document.querySelector('body').style.backgroundColor='white';
+                    document.querySelector('body').style.color='black';
+                    document.querySelector('div.box2').style.width='60px';
+                    ">
+    <input type="button"
+           value="box reset"
+           onclick="document.querySelector('div.box1').style='none';
+                    document.querySelector('div.box2').style='none';
+           ">
+
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+
+    
+  </body>
+</html>

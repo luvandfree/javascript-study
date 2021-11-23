@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="w4.css" />
+    <style>
+      /* 선택자 우선순위는 구체적인 것 부터  */
+      /* #id > .class > tag > * universal*/
+
+      .js {
+        font-weight: 800;
+        color: cornflowerblue;
+      }
+      #first {
+        background-color: cornsilk;
+      }
+      #first:hover {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <input>
+    <h2 style="background-color: powderblue; color: coral">JavaScript 3주차</h2>
+
+    <!-- lorem - 아무말이나 채워넣기 -->
+    <!-- VScode 화면 너비에 따른 자동 줄바꿈 처리 : editor.wordwrap : "on"; -->
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos quisquam
+    odio,
+    <div class="js">dfdfdf</div>
+    adipisci dolorem alias voluptate repellendus rerum,
+    <div id="first" class="js">dfdfdf</div>
+    excepturi et illum voluptatum totam inventore,
+    <div class="js">dddfdfdf</div>
+    sapiente delectus aspernatur! Accusantium labore consectetur necessitatibus.
+    <div>
+      <a href="https://www.naver.com" target="_blank">네이버</a>
+      <a href="https://google.com" target="_blank">구글</a>
+      <a href="https://youtube.com" target="_blank">유튜브</a>
+    </div>
+    <h2>comparison operatiors & boolean</h2>
+    <h3>1===1</h3>
+    <script>
+      document.write(1 === 1);
+    </script>
+    <h3>1===2</h3>
+    <script>
+      document.write(1 === 2);
+    </script>
+    <!-- boolean : true || false 로 구분되는 데이터 타입 -->
+
+    <h2>conditional statements</h2>
+    <!-- if(boolean) {
+      조건 ture 면 실행
+    } else { 
+      아니면 순차 실행
+    }
+   -->
+   <script>
+     function chkAdult () {
+       var age = prompt("나이를 입력해주세요"); 
+       if (age>19) {
+         alert ("성인");
+         window.open('about:blank').location.href='https://paybooc.co.kr';
+       } 
+         else {
+         alert ("미성년자");
+         window.open('about:blank').location.href='http://www.pororopark.com/about/concept.php';
+       }
+     }
+   </script>
+    <input type="button" value="성인인증" onclick =chkAdult(); >
+  </body>
+</html>

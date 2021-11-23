@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w0.css">
+    <title>html css</title>
+</head>
+<body>
+  <h1>html</h1>
+  <h2>a태그</h2>
+    <ul>
+      <li><a href="https://google.com" target="_blank">구글 blank</a></li>
+      <li><a href="https://google.com" target="_parent">구글 parent</a></li>
+      <li><a href="https://google.com" target="_self">구글 self</a></li>
+      <li><a href="https://google.com" target="_top">구글 top</a></li>
+    </ul>
+  <!--??? parent, top 차이-->
+  <h2>block & inline</h2>
+    <p>(span - inline) This is a sentence. <span>that is..</span></p>
+    <p>(div - block) This is a sentence. <div>That is..</div></p>
+
+    <h2>Input</h2>
+    <div>
+      <label for="input_name">text</label>
+      <input id="input_name" type="text"
+    </div>
+    
+    <div>
+      <label for="input_check">checkbox</label>
+      <input id="input_check" type="checkbox"
+    </div>
+
+    <div>
+      <label for="input_num">number</label>
+      <input id="input_num" type="number"
+    </div>
+
+    <!--CSS
+    author style > user style > browser style
+    -->
+    <h1>CSS</h1>
+    <p>
+    CSS기본 문법 : selector {property: value;}
+    </p>
+    
+    <h2>selectors</h2>
+      <ul>
+        <li>universal : *</li>
+        <li>type : Tag</li>
+        <li>ID : #id</li>
+        <li>Class : .class</li>
+        <li>state : : </li>
+        <li>Attribute : []</li>
+      </ul>
+      <div class="box"></div>
+
+      <h2>display, position</h2>
+
+      <!--block level-->
+
+      <div class="box2">display : block</div>
+      <div class="box2">block2</div>
+      <div class="box2">block3</div>
+      
+      <!-- inline level-->
+      <span class="box3">display : inline</span>
+      <span class="box3">inline2</span>
+      <span class="box3">inline3</span>
+  
+      <article class="container">
+        전체 top:20px , left : 20px
+        <div></div>
+        <div class="box4">position relative</div>
+        <div></div>
+        <div class="box5">position absolute</div>
+        <div></div>
+        <div class="box6">position fixed</div>
+        <div></div>
+        <div class="box7">position sticky</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </article>
+      
+      <!-- 
+        relative : 원래 위치 기준 
+        absolute : 바로 상위 박스 기준 
+        fixed : 화면 기준
+        sticky : 플로팅 버튼 
+      -->
+
+
+  </body>
+</html>

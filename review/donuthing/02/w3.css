@@ -1,0 +1,23 @@
+div.box1 {
+  background-color: lightcoral;
+  width: 20px;
+  height: 20px;
+  padding: 20px 20px;
+  margin: 10px 10px;
+}
+
+div.box2 {
+  background-color: lightcyan;
+  width: 20px;
+  height: 20px;
+  padding: 20px 20px;
+  margin: 10px 10px;
+}
+
+div.box3 {
+  background-color: lightslategray;
+  width: 20px;
+  height: 20px;
+  padding: 20px 20px;
+  margin: 10px 10px;
+}

@@ -1,0 +1,63 @@
+.box {
+  background: beige;
+  width: 100px;
+  height: 100px;
+  padding: 20px 20px;
+  border: 3px dashed lightgreen;
+}
+
+.box2 {
+  background: olive;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.box3 {
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.container {
+  background: lightgrey;
+  left: 20px;
+  top: 20px;
+  position: relative;
+}
+
+.container div {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  background: red;
+}
+
+div.box4 {
+  background: rgb(168, 168, 255);
+  top: 20px;
+  left: 20px;
+  position: relative;
+}
+
+div.box5 {
+  background: rgb(170, 252, 170);
+  top: 20px;
+  left: 20px;
+  position: absolute;
+}
+
+div.box6 {
+  background: lightpink;
+  top: 20px;
+  left: 20px;
+  position: fixed;
+}
+
+div.box7 {
+  background: rgb(221, 178, 235);
+  top: 20px;
+  left: 80px;
+  position: sticky;
+}

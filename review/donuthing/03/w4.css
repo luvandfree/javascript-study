@@ -1,0 +1,23 @@
+#first:hover {
+  color: black;
+  background-color: white;
+}
+.js:hover {
+  font-weight: 400;
+  color: black;
+  background-color: white;
+}
+div:hover {
+  color: black;
+  background-color: white;
+}
+
+a[href="https://www.naver.com"]
+{
+  color: green;
+}
+
+a[href="https://google.com"]
+{
+  color: red;
+}
