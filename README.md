@@ -35,14 +35,14 @@
 - [생활코딩 - 프로그램, 프로그래밍, 프로그래머](https://opentutorials.org/course/3085/18876)
 - [생활코딩 - 조건문 예고](https://opentutorials.org/course/3085/18879)
 
-### 4주차
+### 4주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/04.html)
 
 - [생활코딩 - 비교 연산자와 Boolean 데이터 타입](https://opentutorials.org/course/3085/18798)
 - [생활코딩 - 조건문](https://opentutorials.org/course/3085/18800)
 - [생활코딩 - 조건문의 활용](https://opentutorials.org/course/3085/18878)
 - [생활코딩 - 리팩토링(refactoring)](https://opentutorials.org/course/3085/18801)
 - [생활코딩 - 반복문 예고](https://opentutorials.org/course/3085/18881)
-- [Quiz](https://luvandfree.github.io/javascript-study/quiz/quiz_03.html)
+- [Quiz](https://luvandfree.github.io/javascript-study/quiz/04_conditional/quiz_04.html)
 
 ### 5주차
 
