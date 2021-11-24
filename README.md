@@ -8,7 +8,7 @@
 
 멘토링 진행 방향 설정 및 HTML/CSS 리뷰
 
-### 1주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/01.html)
+### 1주차 - JavaScript Intro [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/01.html)
 
 - [Visual Studio 및 Extensions 설치](https://youtu.be/bS9yTI2fC0w)
 - **(이것만 필수)** [드림코딩 - 자바스크립트의 역사와 현재 그리고 미래 (JavaScript, ECMAScript, JQuery, Babel, Node.js)](https://youtu.be/wcsVjmHrUQg)
@@ -19,14 +19,14 @@
 - 생활코딩 - HTML과 JavaScript의 만남 3 (콘솔)
 - _(Optional)_ [드림코딩 - 콘솔에 출력, script async 와 defer의 차이점 및 앞으로 자바스크립트 공부 방향](https://youtu.be/tJieVCgGzhs)
 
-### 2주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/02.html)
+### 2주차 - 데이터 타입 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/02.html)
 
 - [생활코딩 - 데이터타입 - 문자열과 숫자](https://opentutorials.org/course/3085/18870)
 - [생활코딩 - 변수와 대입 연산자](https://opentutorials.org/course/3085/18871)
 - (Optional) [드림코딩 - 데이터타입, data types, let vs var, hoisting](https://youtu.be/OCCpGh4ujb8)
 - [생활코딩 - 웹브라우저 제어](https://opentutorials.org/course/3085/18872)
 
-### 3주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/03.html)
+### 3주차 - CSS Selector [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/03.html)
 
 - [생활코딩 - CSS 기초](https://opentutorials.org/course/3085/18789)
 - (Optional) [드림코딩 - CSS 셀렉터, 기초 이론 정리. 포트폴리오 만드는 날까지!](https://youtu.be/gGebK7lWnCk)
@@ -35,7 +35,7 @@
 - [생활코딩 - 프로그램, 프로그래밍, 프로그래머](https://opentutorials.org/course/3085/18876)
 - [생활코딩 - 조건문 예고](https://opentutorials.org/course/3085/18879)
 
-### 4주차 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/04.html)
+### 4주차 - 조건문 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/04.html)
 
 - [생활코딩 - 비교 연산자와 Boolean 데이터 타입](https://opentutorials.org/course/3085/18798)
 - [생활코딩 - 조건문](https://opentutorials.org/course/3085/18800)
@@ -44,7 +44,7 @@
 - [생활코딩 - 반복문 예고](https://opentutorials.org/course/3085/18881)
 - [Quiz](https://luvandfree.github.io/javascript-study/quiz/04_conditional/quiz_04.html)
 
-### 5주차
+### 5주차 - 배열과 반복문
 
 - [생활코딩 - 반복문](https://opentutorials.org/course/3085/18827)
 - (Optional) [드림코딩 - 코딩의 기본 operator, if, for loop 코드리뷰 팁](https://youtu.be/YBjufjBaxHo)

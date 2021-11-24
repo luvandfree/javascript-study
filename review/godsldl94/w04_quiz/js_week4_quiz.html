@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz : if</title>
+    <script>
+      // 여기에 로직이 들어가도 됩니다
+    </script>
+    <style>
+      #obj {
+        width: 200px;
+        height: 200px;
+        border: 1px solid gray;
+        margin-top: 20px;
+        background-color: lightcyan;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <input
+      type="button"
+      style="width: 100px; height: 50px"
+      value="hotpink"
+      onclick="
+    var target = document.querySelector('#obj');
+    var num = parseInt(target.textContent);
+    var colormode = target.getAttribute('value');
+    
+    if(colormode ==='lightblueColor') {
+        target.textContent = 0;
+        target.style.backgroundColor = 'lightcyan';
+        target.setAttribute('value', 'hotpinkColor');
+        console.log(colormode);
+    } else {
+        console.log(colormode);
+        if (num<2){
+        target.setAttribute('value', 'hotpinkColor');
+        target.textContent = num + 1;
+        } else if(num===2){
+            target.textContent = num + 1;
+            target.style.backgroundColor = 'hotpink';
+        } else {
+            target.textContent = 0;
+            target.style.backgroundColor = 'lightcyan';
+        }
+        
+    }
+    "
+    />
+    <input
+      type="button"
+      style="width: 100px; height: 50px"
+      value="lightblue"
+      onclick="
+    var target = document.querySelector('#obj');
+    var num = parseInt(target.textContent);
+    var colormode = target.getAttribute('value');
+    
+    if(colormode ==='hotpinkColor') {
+        target.textContent = 0;
+        target.style.backgroundColor = 'lightcyan';
+        target.setAttribute('value', 'lightblueColor');
+        console.log(colormode);
+    } else {
+        console.log(colormode);
+        if (num<1){
+            target.setAttribute('value', 'lightblueColor');
+            target.textContent = num + 1;
+        } else if(num===1){
+            target.textContent = num + 1;
+            target.style.backgroundColor = 'lightblue';
+        } else {
+            target.textContent = 0;
+            target.style.backgroundColor = 'lightcyan';
+        }
+    }
+    "
+    />
+    <div id="obj" value="lightcyanColor">
+      <span id="countText">0</span>
+    </div>
+
+    <!--
+  Quiz
+  1) hotpink 버튼을 누르면 countText의 값이 1 증가
+  2) hotpink 버튼을 3회 연속 누르면 #obj의 background를 hotpink로 변경, 한번 더 누르면 lightcyan으로 초기화
+  3) lightblue 버튼을 누르면 countText의 값이 1 증가
+  4) lightblue 버튼을 2회 연속 누르면 #obj의 background를 lightblue로 변경, 한번 더 누르면 lightcyan으로 초기화
+  5) hotpink 버튼을 누르다가 lightblue 버튼을 누르면 countText는 다시 시작
+-->
+  </body>
+</html>

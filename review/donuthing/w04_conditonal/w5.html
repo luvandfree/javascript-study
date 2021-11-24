@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="jk.css" />
+
+    <title>Document</title>
+    <script type="text/Javascript" src="w5.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2>Javascript</h2>
+    </header>
+    <input
+      class="button"
+      type="button"
+      value="day"
+      onclick="document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black'; "
+    />
+    <input
+      class="button"
+      type="button"
+      value="night"
+      onclick="document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white'; "
+    />
+    <input
+      class="button"
+      type="button"
+      value="toggle"
+      onclick="
+    if (document.querySelector('body').style.backgroundColor ==='black') {
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black'
+      } 
+      else {
+        document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='white'
+      }
+    
+    "
+    />
+    <div class="body_text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa corrupti
+        aliquid dolores esse? Quam nulla ipsum rem quos itaque facere assumenda
+        doloribus iure adipisci. Totam ut adipisci officia quia qui.
+      </p>
+    </div>
+  </body>
+</html>
