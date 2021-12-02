@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- 
+  [문제]
+  설정한 배경색을 정해진 숫자만큼 반복
+
+  [조건]
+  1. 배경색과 반복숫자를 입력하고 적용 버튼을 클릭하면 동작함
+  2. 배경색은 () 안에 존재하는 문자가 입력되어야 함. 그렇지 않을 경우 alert() 처리
+  3. 반복숫자는 1~15 사이의 숫자가 입력되어야 함. 그렇지 않을 경우 alert() 처리
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz06 : Array and Loop</title>
+    <style>
+      div {
+        margin-top: 30px;
+      }
+      table {
+        width: 500px;
+        margin-top: 100px;
+      }
+      td {
+        border: 1px solid #999999;
+        height: 20px;
+        font-size: small;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      배경색(pink / salmon / coral / gold / plum / lime / skyblue 중 선택) :
+      <input id="repeatColor" type="text" />
+    </div>
+    <div>
+      반복숫자(1~15) :
+      <input id="repeatCount" type="text" />
+    </div>
+    <div>
+      <button onclick="">적용</button>
+    </div>
+    <table>
+      <script>
+        const ROW_COUNT = 30;
+        for (i = 1; i <= ROW_COUNT; ++i) {
+          document.write(`<tr class="row"><td>${i}</td></tr>`);
+        }
+      </script>
+    </table>
+  </body>
+</html>

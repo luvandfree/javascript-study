@@ -44,7 +44,7 @@
 - [생활코딩 - 반복문 예고](https://opentutorials.org/course/3085/18881)
 - [Quiz](https://luvandfree.github.io/javascript-study/quiz/04_conditional/quiz_04.html)
 
-### 5주차 - 배열과 반복문
+### 5주차 - 배열과 반복문 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/05.html)
 
 - [생활코딩 - 반복문](https://opentutorials.org/course/3085/18827)
 - (Optional) [드림코딩 - 코딩의 기본 operator, if, for loop 코드리뷰 팁](https://youtu.be/YBjufjBaxHo)
@@ -54,6 +54,13 @@
 - (Optional) [드림코딩 - 배열 제대로 알고 쓰자. 자바스크립트 배열 개념과 APIs 총정리](https://youtu.be/yOdAVDuHUKQ)
 - (Optional\*2) [드림코딩 - 유용한 10가지 배열 함수들. Array APIs 총정리](https://youtu.be/3CUjtKJ7PJg)
 - [생활코딩 - 함수예고](https://opentutorials.org/course/3085/18882)
+
+### 6주차 - 함수
+
+- [생활코딩 - 함수](https://opentutorials.org/course/3085/18851)
+- [생활코딩 - 함수의 활용](https://opentutorials.org/course/3085/18883)
+- (Optional) [드림코딩 - Arrow Function은 무엇인가? 함수의 선언과 표현](https://youtu.be/e_lU39U-5bQ)
+- [Quiz](https://luvandfree.github.io/javascript-study/quiz/05_array_loop/quiz_05.html)
 
 <br>
 
