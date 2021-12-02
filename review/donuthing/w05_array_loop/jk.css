@@ -1,0 +1,33 @@
+.button {
+  background-color: #e5e5e7;
+  border: 1px solid #e5e5e7;
+  border-radius: 20px;
+  padding: 3px 12px;
+}
+
+.button:hover {
+  border: 1px solid #465062;
+  background-color: #465062;
+  color: white;
+}
+
+body h1 {
+  color: rgb(38, 38, 38);
+}
+
+body h2 {
+  color: rgb(60, 60, 60);
+}
+
+body {
+  color: rgb(85, 27, 27);
+}
+
+div.gray-box {
+  background-color: rgb(245, 245, 245);
+  padding: 3px 3px;
+}
+
+div#wrap {
+  padding-top: 5px;
+}

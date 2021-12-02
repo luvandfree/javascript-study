@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="jk.css" />
+  </head>
+  <body>
+    <!-- <h1>Loop</h1>
+    <ul>
+      <script>
+        document.write("<li>1</li>");
+        document.write("<li>2</li>");
+        var i = 0;
+        while (i < 3) {
+          document.write("<li>3</li>");
+          document.write("<li>4</li>");
+          i = i + 1;
+        }
+        document.write("<li>4</li>");
+      </script>
+    </ul>
+    <h1>Array</h1>
+    <h2>Syntax</h2>
+    var 변수명 = ["값1", "값2"]
+    <script>
+      var coworkers = ["egoing", "leezche"];
+    </script>
+
+    <h2>get</h2>
+    <script>
+      document.write(coworkers[0]);
+      document.write(coworkers[1]);
+    </script>
+
+    <h2>add</h2>
+    <script>
+      coworkers.push("duru");
+      coworkers.push("taeho");
+    </script>
+
+    <h2>count</h2>
+    <script>
+      document.write(coworkers.length);
+    </script> -->
+
+    <h1>Loop & Array</h1>
+    <script>
+      var coworkers = ["첫째자리", "둘째자리", "셋째자리", "넷째자리", "...."];
+    </script>
+    <h2>Co workers</h2>
+    <div class="gray-box">
+      <ul>
+        <script>
+          var i = 0;
+          while (i < coworkers.length) {
+            document.write("<li>" + coworkers[i] + "</li>");
+            i = i + 1;
+          }
+        </script>
+      </ul>
+    </div>
+    <h2>Event List</h2>
+    <input type="text" id="input" />
+    <input type="button" class="button" value="등록" onclick="input()" />
+
+    <script>
+      var evntList = [
+        "2021110037",
+        "2021090047",
+        "2021020010",
+        "33333",
+        "1234",
+      ];
+
+      function input() {
+        var input = document.getElementById("input").value;
+        console.log("입력값= " + input);
+        evntList.push(input);
+        console.log(evntList);
+      }
+
+      console.log(input);
+
+      //? 특정 함수가 사용된 후  특정 반복문을 다시 실행시키는 방법
+      //--> 신규 이벤트 번호를 array에 추가 후 추가된 array 기준으로 반복문을 다시 실행시키고 싶습니다.
+    </script>
+    <div class="gray-box">
+      <ul>
+        <script>
+          var i = 0;
+          while (i < evntList.length) {
+            document.write(
+              '<li><a href="https://paybooc.co.kr/app/paybooc/REventDetail.do?evntNo=' +
+                evntList[i] +
+                '">' +
+                "이벤트번호 - " +
+                evntList[i] +
+                "</a></li>"
+            );
+            i = i + 1;
+          }
+        </script>
+      </ul>
+    </div>
+
+    <h2>변수와 반복문 활용</h2>
+    <div id="wrap">
+      <input
+        class="button"
+        type="button"
+        value="day"
+        onclick="document.getElementById('wrap').style.backgroundColor='white';
+        document.getElementById('wrap').style.color='black';
+
+        var alist = document.querySelectorAll('a');
+        var ii = evntList.length;
+        console.log(ii);
+        while (ii < (alist.length + evntList.length)) {
+          alist[ii].style.color='black';
+          ii = ii +1;
+          }
+        "
+      />
+      <input
+        class="button"
+        type="button"
+        value="night"
+        onclick="document.getElementById('wrap').style.backgroundColor='black';
+        document.getElementById('wrap').style.color='white'; 
+        
+        // 반복문 적용  
+        var alist = document.querySelectorAll('a');
+        var ii = evntList.length;
+        // a태그 리스트 중 위 alist 배열에 포함된 항목은 제외
+        console.log(ii);
+        while (ii < (alist.length + evntList.length)) {
+          alist[ii].style.color='powderblue';
+          ii = ii +1;
+          }
+        "
+      />
+      <input
+        class="button"
+        type="button"
+        value="toggle"
+        onclick="
+  if (document.getElementById('wrap').style.backgroundColor ==='black') {
+    document.getElementById('wrap').style.backgroundColor='white';
+    document.getElementById('wrap').style.color='black'
+    
+    var alist = document.querySelectorAll('a');
+        var ii = evntList.length;
+        console.log(ii);
+        while (ii < (alist.length + evntList.length)) {
+          alist[ii].style.color='black';
+          ii = ii +1;
+          }
+    } 
+    else {
+      document.getElementById('wrap').style.backgroundColor='black';
+      document.getElementById('wrap').style.color='white'
+
+      var alist = document.querySelectorAll('a');
+        var ii = evntList.length;
+        console.log(ii);
+        while (ii < (alist.length + evntList.length)) {
+          alist[ii].style.color='powderblue';
+          ii = ii +1;
+          }
+    }
+  
+  "
+      />
+      <div class="body_text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+          corrupti aliquid dolores esse? Quam nulla ipsum rem quos itaque facere
+          assumenda doloribus iure adipisci. Totam ut adipisci officia quia qui.
+        </p>
+        <ol>
+          <li><a href="#">html</a></li>
+          <li><a href="#">css</a></li>
+          <li><a href="#">js</a></li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
