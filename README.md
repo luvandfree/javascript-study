@@ -55,7 +55,7 @@
 - (Optional\*2) [드림코딩 - 유용한 10가지 배열 함수들. Array APIs 총정리](https://youtu.be/3CUjtKJ7PJg)
 - [생활코딩 - 함수예고](https://opentutorials.org/course/3085/18882)
 
-### 6주차 - 함수
+### 6주차 - 함수 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/06.html)
 
 - [생활코딩 - 함수](https://opentutorials.org/course/3085/18851)
 - [생활코딩 - 함수의 활용](https://opentutorials.org/course/3085/18883)
