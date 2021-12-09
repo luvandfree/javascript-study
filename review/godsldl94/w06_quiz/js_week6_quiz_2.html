@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- 
+  [문제]
+  설정한 배경색을 정해진 숫자만큼 반복
+
+  [조건]
+  1. 배경색과 반복숫자를 입력하고 적용 버튼을 클릭하면 동작함
+  2. 배경색은 대소문자 구분이 없음
+  3. 배경색은 () 안에 존재하는 문자가 입력되어야 하고. 그렇지 않을 경우 alert() 처리
+  4. 반복숫자는 1~15 사이의 숫자가 입력되어야 함. 그렇지 않을 경우 alert() 처리
+  5. 1회 실행 후 반복숫자, 배경색을 수정 후 "적용" 버튼을 다시 누르면 기존에 배경색이 변경되었던 row는 초기화되고 새로운 조건에 따라 배경색 변경
+-->
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz05 : Array and Loop</title>
+    <style>
+      div {
+        margin-top: 30px;
+      }
+      table {
+        width: 500px;
+        margin-top: 100px;
+      }
+      td {
+        border: 1px solid #999999;
+        height: 20px;
+        font-size: small;
+        text-align: center;
+      }
+    </style>
+    <script>
+         //보기 리스트로 만들기
+        const colorList =['pink', 'salmon', 'coral', 'gold', 'plum', 'lime', 'skyblue'];
+        const numberList = []
+        for (i=1; i<16; i++) {
+            numberList.push(i);
+        }
+        console.log(colorList);
+        console.log(numberList);
+        
+        //문항별로 조건, 안내메시지 그룹핑
+        class InputItem {
+        constructor(type, condition, errorMessage) {
+            this.type = type;
+            this.condition = condition;
+            this.errorMessage = errorMessage;
+        }
+        }
+        const inputItems = [
+        new InputItem('color', colorList,'보기에 있는 색상을 입력하세요'),
+        new InputItem('number', numberList,'1~15 사이의 숫자를 입력하세요')
+        ];
+
+        //배경색 변경하는 함수
+        function paintColor(){
+            //입력값 가져오기
+            const colorValueRaw = document.getElementById('repeatColor').value;
+            const colorValue = colorValueRaw.toLowerCase();
+            const numberValueRaw = document.getElementById('repeatCount').value;
+            const numberValue =parseInt(numberValueRaw);
+            const values = [colorValue, numberValue]
+            console.log(values);
+            //검증 결과, 알럿 메시지 기록할 배열 
+            let passYn = [];
+            let alertContents = [];
+            //입력값이 정확한지 판별 #1
+                /* 
+                if (colorList.includes(colorValue)) {
+                    passYn.push('Y')
+                    console.log('일치');
+                } else{
+                    alertContents.push('보기에 있는 색상을 입력하세요')
+                    console.log('불일치');
+                }
+                if (numberList.includes(numberValue)) {
+                    passYn.push('Y')
+                    console.log('일치');
+                } else{
+                    alertContents.push('1~15 사이의 숫자를 입력하세요')
+                    console.log('불일치');
+                } 
+                */
+
+            //입력값이 정확한지 판별 #2
+            for (i=0; i<inputItems.length; i++){
+                if (inputItems[i].condition.includes(values[i])) {
+                    passYn.push('Y');
+                    console.log('일치');
+                } else{
+                    // passYn.push('N');
+                    /* 
+                    [질문] passYn 내용에 따라 case를 4개로 나누어 결과를 출력하고 싶은데 어떻게 할 수 있을까요?
+                        예시:
+                        if (passYn ===['Y','Y']) => case1: pass
+                        if (passYn ===['Y','N']) => case2: 얼럿1 출력
+                        if (passYn ===['N','Y']) => case3: 얼럿2 출력
+                        if (passYn ===['N','N']) => case4: 얼럿3 출력
+                     */
+                    alertContents.push(inputItems[i].errorMessage);
+                    console.log('불일치');
+                }
+            }
+            //alert 메시지 합치기
+            const alertMessage = alertContents.join('\n');
+            //입력값에 따라 색상 변경
+            if (passYn.length === 2) {
+                let trlist = document.querySelectorAll('tr');
+                let i = 0;
+                while(i < trlist.length){
+                    trlist[i].style.backgroundColor = '';
+                    if (i%numberValue ===0) {
+                        trlist[i].style.backgroundColor = colorValue;
+                    }
+                    i++;
+                }
+            } else {
+                alert(alertMessage);
+            }
+        }
+    </script>
+  </head>
+  <body>
+    <div>
+      배경색(pink / salmon / coral / gold / plum / lime / skyblue 중 선택) :
+      <input id="repeatColor" type="text">
+    </div>
+    <div>
+      반복숫자(1~15) :
+      <input id="repeatCount" type="text">
+    </div>
+    <div>
+      <button onclick="
+      paintColor();
+      ">적용</button>
+    </div>
+    <table>
+      <script>
+        const ROW_COUNT = 30;
+        for (i = 1; i <= ROW_COUNT; ++i) {
+          document.write(`<tr class="row"><td>${i}</td></tr>`);
+        }
+      </script>
+        <!-- <tbody><tr class="row"><td>1</td></tr><tr class="row"><td>2</td></tr><tr class="row"><td>3</td></tr><tr class="row"><td>4</td></tr><tr class="row"><td>5</td></tr><tr class="row"><td>6</td></tr><tr class="row"><td>7</td></tr><tr class="row"><td>8</td></tr><tr class="row"><td>9</td></tr><tr class="row"><td>10</td></tr><tr class="row"><td>11</td></tr><tr class="row"><td>12</td></tr><tr class="row"><td>13</td></tr><tr class="row"><td>14</td></tr><tr class="row"><td>15</td></tr><tr class="row"><td>16</td></tr><tr class="row"><td>17</td></tr><tr class="row"><td>18</td></tr><tr class="row"><td>19</td></tr><tr class="row"><td>20</td></tr><tr class="row"><td>21</td></tr><tr class="row"><td>22</td></tr><tr class="row"><td>23</td></tr><tr class="row"><td>24</td></tr><tr class="row"><td>25</td></tr><tr class="row"><td>26</td></tr><tr class="row"><td>27</td></tr><tr class="row"><td>28</td></tr><tr class="row"><td>29</td></tr><tr class="row"><td>30</td></tr>
+        </tbody> -->
+    </table>
+</body>
+</html>

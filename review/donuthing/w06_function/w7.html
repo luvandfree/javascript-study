@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="jk.css" />
+    <script>
+      function nightDayHandler(self) {
+        var target = document.querySelector("p");
+        var button = document.querySelector("input.button");
+        var alist = document.querySelectorAll("a");
+        if (button.value === "night") {
+          target.style.backgroundColor = "black";
+          button.value = "day";
+          //a태그 폰트 컬러 변경 반복문
+          var i = 0;
+          while (i < alist.length) {
+            alist[i].style.color = "powderblue";
+            i = i + 1;
+          }
+        } else {
+          target.style.backgroundColor = "white";
+          button.value = "night";
+          var i = 0;
+          while (i < alist.length) {
+            alist[i].style.color = "black";
+            i = i + 1;
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>WEB</h1>
+    <input
+      type="button"
+      class="button"
+      value="night"
+      onclick="nightDayHandler(self);"
+    />
+    <div class="gray-box">
+      <ul>
+        <li><a href="#">html</a></li>
+        <li><a href="#">css</a></li>
+        <li><a href="#">javascript</a></li>
+      </ul>
+    </div>
+    <h2>javascript</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora non
+      nobis aut rerum quod modi voluptates explicabo nulla expedita ratione.
+      Accusantium ut vel explicabo saepe sed neque in aliquam! Eaque?
+    </p>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- 
+  [문제]
+  설정한 배경색을 정해진 숫자만큼 반복
+
+  [조건]
+  1. 배경색과 반복숫자를 입력하고 적용 버튼을 클릭하면 동작함
+  2. 배경색은 대소문자 구분이 없음
+  3. 배경색은 () 안에 존재하는 문자가 입력되어야 하고. 그렇지 않을 경우 alert() 처리
+  4. 반복숫자는 1~15 사이의 숫자가 입력되어야 함. 그렇지 않을 경우 alert() 처리
+  5. 1회 실행 후 반복숫자, 배경색을 수정 후 "적용" 버튼을 다시 누르면 기존에 배경색이 변경되었던 row는 초기화되고 새로운 조건에 따라 배경색 변경
+-->
+
+<!-- 
+1. 실패
+2. equalsIgnoreCase(), 적용 못함
+3. 부분 성공, true 시 alert 제거 필요
+4. 부분 성공, true 시 alert 제거 필요
+5. 실패
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz05 : Array and Loop</title>
+    <style>
+      div {
+        margin-top: 30px;
+      }
+      table {
+        width: 500px;
+        margin-top: 100px;
+      }
+      td {
+        border: 1px solid #999999;
+        height: 20px;
+        font-size: small;
+        text-align: center;
+      }
+     
+    </style>
+  </head>
+
+  <body>
+
+
+    <div>
+      배경색(pink / salmon / coral / gold / plum / lime / skyblue 중 선택) :
+      <input id="repeatColor" type="text" onclick="func()"/>
+
+      <script>
+        function func(){
+        let repeatColor = document.getElementById('repeatColor').value;
+        if(repeatColor==="pink"||repeatColor==="salmon"||repeatColor==="coral"||repeatColor==="gold"||repeatColor==="plum"||repeatColor==="lime"||repeatColor==="skyblue"){
+          alert('');
+        } else {
+          alert('fail');
+        }
+      }
+      </script>
+
+
+
+    </div>
+    
+    <div>
+      반복숫자(1~15) :
+      <input id="repeatCount" type="text" onclick="func()"/>
+      <script>
+        function func(){
+        let repeatCount = document.getElementById('repeatCount').value;
+        if(repeatCount >= 1 && repeatCount <= 15){
+          alert('');
+        } else {
+          alert('fail');
+        }
+      }
+      </script>
+
+
+    </div>
+
+    <div>
+      <button onclick="
+      Handler(this);
+      ">적용</button>
+    </div>
+
+
+    <table>
+      <script>
+        const ROW_COUNT = 30;
+        for (i = 1; i <= ROW_COUNT; ++i) {
+          document.write(`<tr class="row"><td>${i}</td></tr>`);
+        }
+
+
+      </script>
+    </table>
+
+  </body>
+</html>
+

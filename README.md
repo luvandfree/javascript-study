@@ -62,6 +62,13 @@
 - (Optional) [드림코딩 - Arrow Function은 무엇인가? 함수의 선언과 표현](https://youtu.be/e_lU39U-5bQ)
 - [Quiz](https://luvandfree.github.io/javascript-study/quiz/05_array_loop/quiz_05.html)
 
+### 7주차 - 객체
+
+- [생활코딩 - 객체예고](https://opentutorials.org/course/3085/18884)
+- [생활코딩 - 객체](https://opentutorials.org/course/3085/18853)
+- [생활코딩 - 객체 활용](https://opentutorials.org/course/3085/18885)
+- (Optional) [드림코딩 - 클래스와 오브젝트의 차이점(class vs object)](https://youtu.be/_DLhUBWsRtw)
+
 <br>
 
 ## IDE (개발툴)

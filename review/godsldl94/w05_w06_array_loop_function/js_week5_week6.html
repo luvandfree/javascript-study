@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="array-api.js" defer></script>
+    <script>
+    function nightdayHandler(self){
+      var target = document.querySelector('body');
+      if(self.value==='Night mode'){
+          target.style.background='black';
+          target.style.color='white';
+          self.value='Day mode';
+          
+      } else{
+          target.style.background='white';
+          target.style.color='black';
+          self.value='Night mode';
+      }
+    }
+    </script>
+    <style>
+      .wrap {
+        padding: 20px;
+        margin: 15px;
+        border: 1px solid darkgray;
+        border-radius: 15px;
+      }
+      .top {
+        position: fixed;
+        background-color: white;
+      }
+      .btn {
+        padding: 5px 20px 5px 20px;
+        margin: 0px 10px 0px 10px;
+        border: none;
+        background-color: gray;
+        color: white;
+        border-radius: 20px;
+        font-size: 18px;
+        height: 40px;
+        box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        opacity: 0.7;
+      }
+
+      .btn:hover {
+        opacity: 1;
+        box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+        transition: 1s;
+      }
+
+      .btn:active {
+        transform: translate(2px 2px);
+      }
+      .input1 {
+        padding: 5px 20px 5px 20px;
+        border: 1px solid gray;
+        background-color: white;
+        border-radius: 20px;
+        font-size: 18px;
+        height: 30px;
+        font-size: 15px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <span>모드를 변경해 보세요</span>
+      <input
+        type="button"
+        class="btn"
+        value="Night mode"
+        onclick="
+        nightdayHandler(this);
+        "
+      />
+    </div>
+
+    <div class='wrap'>
+        <h1>Loop</h1>
+        <h3>반복문으로 숫자 나열하기</h3>
+        <ul>
+        <script>
+            var i = 0;
+            while(i<5){
+                document.write('<li>'+i+'</li>');
+                i = i+1;
+            }
+        </script>
+        </ul>
+    </div>
+
+    <div class='wrap'>
+        <h1>Loop&Array</h1>
+        <h3>반복문을 활용해 리스트 나열하기</h3>
+        <ul>
+        <script>
+            const members = ['mentor', 'paul', 'jpark', 'doyo', 'jenny'];
+            var i = 0;
+            const num = members.length;
+            //while문을 활용해 리스트 나열
+            while(i < num){
+                document.write('<li>'+members[i]+'</li>');
+                i++;
+            }
+            // for문을 활용해 리스트 나열
+            for (member of members) {
+                document.write('<li>'+member+'</li>');
+            }
+        </script>
+        </ul>
+        <h3>반복문을 활용해 스타일 바꾸기</h3>
+        <ul>
+        <script>
+            const week = [];
+            for (let i=0; i<7; i++){
+                week.push(i+'주차');
+                document.write('<li><a href="https://luvandfree.github.io/javascript-study/docs/course/0'+i+'.html">'+week[i]+'</a></li>')
+            }
+            const alist = document.querySelectorAll('a');
+            var i = 0;
+            while(i<alist.length){
+                alist[i].style.color = '#'+i+i+i+i+i+i;
+                i++
+            }
+        </script>
+        </ul>
+    </div>
+  </body>
+</html>
