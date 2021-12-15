@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function LinksSetColor(color){ 
+            var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+    alist[i].style.color=color;
+    i = i + 1;
+    } 
+        }
+        var Body = {
+            setColor : function(color){
+                document.querySelector('body').style.color=color;    
+            }, //객체의 property 구분은 , 를 사용한다.
+            setBackgroundColor : function(color){
+                document.querySelector('body').style.backgroundColor=color;
+            }
+        }
+        var Links = {
+            setColor : function(color){
+                var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+    alist[i].style.color=color;
+    i = i + 1;
+    }     
+            }
+        }
+        function BodySetColor(color){
+        document.querySelector('body').style.color=color;   
+        }
+        function BodySetBackgroundColor(color){
+        document.querySelector('body').style.backgroundColor=color;   
+        }
+        function nightDayHandler(self){
+        var target = document.querySelector('body');
+    if(self.value==='night'){
+    BodySetBackgroundColor('black'); //Body.setBackgroundColor로 바꿔서 하니까 버튼이 동작을 안해요
+    BodySetColor('white'); ////Body.setColor로 바꿔서 하니까 버튼이 동작을 안해요
+    self.value='day';
+
+    Links.setColor('powderblue'); //Links.setColor로 바꿔서 하니까 버튼이 동작을 안해요
+    } else {
+    Body.setBackgroundColor('white');
+    Body.setColor('black');
+    self.value='night';
+LinksSetColor('blue');
+    } 
+}
+    </script>
+</head>
+<body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input type="button" value="night" onclick="
+nightDayHandler(this);
+    ">
+    <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">JavaScript </a></li>
+    </ol>
+</body>
+</html>

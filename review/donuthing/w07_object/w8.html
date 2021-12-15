@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="jk.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Object</h1>
+    <h2>create</h2>
+    <div class="gray-box">
+      <script>
+        //객체 생성
+        var coworkers = {
+          programmer: "egoing",
+          designer: "leezche",
+        };
+        document.write("programmer : " + coworkers.programmer + "<br>");
+        //객체에 데이터 추가
+        coworkers.bookkeeper = "duru";
+        document.write("bookkeeper : " + coworkers.bookkeeper + "<br>");
+        //띄어쓰기 포함 객체 접근
+        coworkers["data sci"] = "taeho";
+        document.write("data sci : " + coworkers["data sci"]);
+      </script>
+    </div>
+
+    <h2>iterate</h2>
+    <div class="gray-box">
+      <strong>var key in cowrkers <br /></strong>
+      <script>
+        for (var key in coworkers) {
+          document.write(key + "<br>");
+        }
+      </script>
+      <br />
+      <strong> var key in cowrkers[key] <br /></strong>
+      <script>
+        for (var key in coworkers) {
+          document.write(key + " : " + coworkers[key] + "<br>");
+        }
+      </script>
+    </div>
+
+    <h2>property & method</h2>
+    <div class="gray-box">
+      <script>
+        coworkers.showAll = function () {
+          for (var key in this) {
+            console.log(key);
+            //showAll값 제거
+            if (key == "showAll") {
+              continue;
+            } else {
+              document.write(key + " : " + this[key] + "<br>");
+            }
+          }
+        };
+        coworkers.showAll();
+      </script>
+    </div>
+  </body>
+</html>

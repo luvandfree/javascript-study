@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--객체의 쓰기와 읽기-->
+<h1>Object</h1>
+<h2>Create</h2>
+<script>
+    var coworkers = {
+        "programmer":"egoing",
+        "designer":"leezche"
+    };
+    document.write("programmer : " + coworkers.programmer+ "<br>");
+    document.write("designer : " + coworkers.designer+ "<br>");
+    coworkers.bookkeeper = "duru";
+    document.write("bookkeeper : " + coworkers.bookkeeper+ "<br>");
+    coworkers["data scientist"] = "taeho";
+    document.write("data scientist : " + coworkers["data scientist"]+ "<br>");
+</script>
+<!--객체와 반복문-->
+<h2>Iterate</h2>
+<script>
+    for(var key in coworkers){
+        document.write(key+' : '+coworkers[key]+'<br>'); //coworkers의 key 값을 모조리 출력함
+    } //(key+'<br>')에는 프로그래머, 디자이너 등 출력 coworkers[key]는 직원 이름을 출력
+</script>
+<!--프로퍼티와 메소드-->
+<h2>Property&Method</h2> 
+<script>
+    coworkers.showAll = function(){
+        for(var key in this){ //coworkers 객체를 가르키는 this로 변경
+            //if문으로 함께 출력되는 showAll의 코드를 제어해 줄 수 있음
+        document.write(key+' : '+this[key]+'<br>'); 
+    }
+    } //function showAll(){}와 똑같음 
+coworkers.showAll(); 
+</script>
+</body>
+</html>
