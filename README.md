@@ -69,12 +69,15 @@
 - [생활코딩 - 객체 활용](https://opentutorials.org/course/3085/18885)
 - (Optional) [드림코딩 - 클래스와 오브젝트의 차이점(class vs object)](https://youtu.be/_DLhUBWsRtw)
 
-### 8주차 - 정리 (Fin.)
+### 8주차 - 정리
 
 - [생활코딩 - 파일로 쪼개서 정리 정돈하기](https://opentutorials.org/course/3085/18856)
 - [생활코딩 - 라이브러리와 프래임워크](https://opentutorials.org/course/3085/18886)
 - [생활코딩 - UI vs API](https://opentutorials.org/course/3085/18887)
 - [생활코딩 - 수업을 마치며](https://opentutorials.org/course/3085/18888)
+
+### 9주차 - Quiz
+
 - [Quiz : Vending Machine](https://luvandfree.github.io/javascript-study/quiz/03_vending_machine/quiz_03.html)
 
 <br>
