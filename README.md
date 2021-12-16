@@ -42,7 +42,7 @@
 - [생활코딩 - 조건문의 활용](https://opentutorials.org/course/3085/18878)
 - [생활코딩 - 리팩토링(refactoring)](https://opentutorials.org/course/3085/18801)
 - [생활코딩 - 반복문 예고](https://opentutorials.org/course/3085/18881)
-- [Quiz](https://luvandfree.github.io/javascript-study/quiz/04_conditional/quiz_04.html)
+- [Quiz](https://luvandfree.github.io/javascript-study/quiz/01_conditional/quiz_01.html)
 
 ### 5주차 - 배열과 반복문 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/05.html)
 
@@ -60,14 +60,22 @@
 - [생활코딩 - 함수](https://opentutorials.org/course/3085/18851)
 - [생활코딩 - 함수의 활용](https://opentutorials.org/course/3085/18883)
 - (Optional) [드림코딩 - Arrow Function은 무엇인가? 함수의 선언과 표현](https://youtu.be/e_lU39U-5bQ)
-- [Quiz](https://luvandfree.github.io/javascript-study/quiz/05_array_loop/quiz_05.html)
+- [Quiz](https://luvandfree.github.io/javascript-study/quiz/02_array_loop/quiz_02.html)
 
-### 7주차 - 객체
+### 7주차 - 객체 [(리뷰)](https://luvandfree.github.io/javascript-study/docs/course/07.html)
 
 - [생활코딩 - 객체예고](https://opentutorials.org/course/3085/18884)
 - [생활코딩 - 객체](https://opentutorials.org/course/3085/18853)
 - [생활코딩 - 객체 활용](https://opentutorials.org/course/3085/18885)
 - (Optional) [드림코딩 - 클래스와 오브젝트의 차이점(class vs object)](https://youtu.be/_DLhUBWsRtw)
+
+### 8주차 - 정리 (Fin.)
+
+- [생활코딩 - 파일로 쪼개서 정리 정돈하기](https://opentutorials.org/course/3085/18856)
+- [생활코딩 - 라이브러리와 프래임워크](https://opentutorials.org/course/3085/18886)
+- [생활코딩 - UI vs API](https://opentutorials.org/course/3085/18887)
+- [생활코딩 - 수업을 마치며](https://opentutorials.org/course/3085/18888)
+- [Quiz : Vending Machine](https://luvandfree.github.io/javascript-study/quiz/03_vending_machine/quiz_03.html)
 
 <br>
 

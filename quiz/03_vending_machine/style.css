@@ -1,0 +1,6 @@
+/* 처음엔 현재 금액이 0원이므로 전부 빨간색으로 초기화한다 */
+.product {
+  color: red;
+  border: 0px;
+  padding: 10px;
+}
