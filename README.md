@@ -80,6 +80,11 @@
 
 - [Quiz : Vending Machine](https://luvandfree.github.io/javascript-study/quiz/03_vending_machine/quiz_03.html)
 
+## More Classes
+
+- [강의 - 드림코딩(무료) : 쇼핑몰 미니게임 클론 코딩 & 코드 리뷰](https://academy.dream-coding.com/courses/mini-shopping)
+- [강의 - 노마드코더(무료) : 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners)
+
 <br>
 
 ## IDE (개발툴)
