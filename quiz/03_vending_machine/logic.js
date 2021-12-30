@@ -1,17 +1,21 @@
 'use strict';
 
 const productPrice = {
-  top: 1500,
-  doubleshot: 2000,
-  evian: 3000,
-  coke: 1200,
-  budvar: 2500,
-  pearjuice: 1800,
+  top: -1500,
+  doubleshot: -2000,
+  evian: -3000,
+  coke: -1200,
+  budvar: -2500,
+  pearjuice: -1800,
   coin5000: 5000,
+  coin1000: 1000,
+  coin500: 500,
+  coin100: 100,
 };
 
-const changeBalance = (coinPrice) => {
+const changeBalance = (obj) => {
   // 현재금액을 계산
+  const coinPrice = parseInt(productPrice[obj.getAttribute('id')]);
   const balance = document.querySelector('#balance');
   let currentPrice = parseInt(balance.textContent.split(' ')[0]) + coinPrice;
 
@@ -27,7 +31,7 @@ const changeProductsStatus = (currentPrice) => {
   // product의 id에 해당하는 제품의 금액이 현재 금액과 비교하여 상태를 변경
   products.forEach((element) => {
     const productId = element.getAttribute('id');
-    if (currentPrice >= productPrice[productId]) {
+    if (currentPrice >= productPrice[productId] * -1) {
       element.style.color = 'blue';
       element.disabled = false;
     } else {
